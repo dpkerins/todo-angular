@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 4px 0;
+}
+
+input {
+  margin: 4px 0;
+}

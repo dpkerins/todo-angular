@@ -1,6 +1,8 @@
-<input
-  class="new-todo-name"
-  placeholder="A new note..." 
-  [(ngModel)]="newTodo"
-/>
-<button class="add-todo"(click)="create.emit(newTodo)">ADD</button>
+<div class="new-todo-item">
+  <input
+    class="new-todo-name"
+    placeholder="A new note..." 
+    [(ngModel)]="newTodo"
+  />
+  <button class="add-todo"(click)="create.emit(newTodo)">ADD</button>
+</div>

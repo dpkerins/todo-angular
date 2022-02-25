@@ -1,0 +1,14 @@
+.new-todo-item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.new-todo-name {
+  width: 80%;
+  text-align: justify;
+}
+
+.add-todo {
+  width: 15%;
+}
